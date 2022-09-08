@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./favicon.ico" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="./logo192.png" />
+    <title>Awesome profile cards</title>
+    <script
+      src="https://kit.fontawesome.com/adcd08db79.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://beta.adalab.es/resources/stylesheets/all.css"
+    />
+    <link rel="icon" href="./favicon.png" />
+    <link href="/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section class="preview fancy-border">
+      <article class="js_preview preview__card fancy-border">
+        <div class="preview__header">
+          <h2 class="preview__name js__preview_name"><%=name %></h2>
+          <h3 class="preview__job js__preview_job">Front-end developer</h3>
+        </div>
+        <div class="preview__photo js__profile-image"></div>
+        <nav>
+          <a class="preview__icon" href="."
+            ><i class="fas fa-phone" aria-hidden="true"></i></a
+          ><a class="preview__icon js__preview_email" href="."
+            ><i class="far fa-envelope" aria-hidden="true"></i></a
+          ><a class="preview__icon" href="."
+            ><i class="fab fa-linkedin-in" aria-hidden="true"></i></a
+          ><a class="preview__icon" href="."
+            ><i class="fab fa-github-alt" aria-hidden="true"></i
+          ></a>
+        </nav>
+      </article>
+    </section>
+  </body>
+</html>
